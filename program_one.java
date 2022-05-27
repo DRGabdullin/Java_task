@@ -49,17 +49,3 @@ public class program_one {
         iScanner.close();
     }
 }
-/*
-       } 
-       public static void sum(String[] args) {
-        System.out.println(Solution.pow(7, 4));
-     }
-     
-     public static int pow(int value, int powValue) {
-        int result = 1;
-        for (int i = 1; i <= powValue; i++) {
-            result = result * value;
-        }
-        return result;
-    }
-*/
