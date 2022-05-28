@@ -11,6 +11,7 @@ a 10
 Результат нужно сохранить в файле output.txt
 1000
 */
+
 import java.util.Scanner;
 
 public class program_one {
@@ -20,12 +21,9 @@ public class program_one {
         boolean flag = iScanner.hasNextInt();
         while (flag == false) {
             System.out.printf("Вы ввели неправильное число, попробуйте еще раз, а = ");
-            String z = iScanner.nextLine();
+            String z1 = iScanner.nextLine();
             boolean flag2 = iScanner.hasNextInt();
             flag = flag2;
-            if (flag == false) {
-                System.out.println("Это разве целое число??? " + z);
-            }
         }
         int x = iScanner.nextInt();
         System.out.printf("int b: ");
@@ -35,14 +33,12 @@ public class program_one {
             String z2 = iScanner.nextLine();
             boolean flag3 = iScanner.hasNextInt();
             flag_two = flag3;
-            if (flag_two == false) {
-                System.out.println("Это разве целое число??? " + z2);
-            }
         }
         int y = iScanner.nextInt();
         if (x == 0 & y == 0) {
             System.out.println("Не определено!");
-        } else {
+        } 
+        else {
             double z = Math.pow(x, y);
             System.out.println(z);
         }
